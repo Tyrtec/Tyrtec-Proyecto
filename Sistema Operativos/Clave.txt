@@ -1,0 +1,6 @@
+El usuario root del servidor es:root
+La contrasena es:root
+
+La contrasena de la terminal es: avanzado2012
+
+El script se encuentra en el escritorio de la terminal y tambien en el drive.

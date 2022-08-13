@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-06-06" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3246" locale="es_ES">
+    <description/>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="200" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#ffcc99]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="ADA" color="#ffcc99" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2022-06-14" duration="26" complete="100" thirdDate="2022-06-01" thirdDate-constraint="0" expand="false">
+            <task id="4" name="RF Y RNF" color="#8cb6ce" meeting="false" start="2022-06-14" duration="5" complete="100" thirdDate="2022-06-20" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="5" name="Limitaciones,alcance y proposito" color="#8cb6ce" meeting="false" start="2022-06-21" duration="4" complete="100" thirdDate="2022-06-06" thirdDate-constraint="0" expand="true"/>
+            <task id="7" name="Preguntas" color="#8cb6ce" meeting="false" start="2022-06-27" duration="5" complete="100" thirdDate="2022-06-08" thirdDate-constraint="0" expand="true"/>
+            <task id="8" name="Roles scrum" color="#8cb6ce" meeting="false" start="2022-07-04" duration="1" complete="100" thirdDate="2022-06-08" thirdDate-constraint="0" expand="true"/>
+            <task id="9" name="Acronimo y abreviatura" color="#8cb6ce" meeting="false" start="2022-07-07" duration="3" complete="100" thirdDate="2022-06-09" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="10" name="Diseño Web II (General)" color="#ffcc99" meeting="false" start="2022-06-23" duration="30" complete="100" thirdDate="2022-06-10" thirdDate-constraint="0" expand="false">
+            <task id="12" name="Logo e isotipo" color="#8cb6ce" meeting="false" start="2022-06-23" duration="2" complete="100" thirdDate="2022-06-08" thirdDate-constraint="0" expand="true"/>
+            <task id="13" name="Wireframe" color="#8cb6ce" meeting="false" start="2022-07-13" duration="2" complete="100" thirdDate="2022-06-14" thirdDate-constraint="0" expand="true"/>
+            <task id="16" name="Implementacion de seo basico" color="#8cb6ce" meeting="false" start="2022-07-22" duration="1" complete="100" thirdDate="2022-06-23" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="17" name="Diseño Web II (Profe)" color="#ffcc99" meeting="false" start="2022-07-22" duration="1" complete="100" thirdDate="2022-06-17" thirdDate-constraint="0" expand="false">
+            <task id="18" name="Logo y paleta de colores" color="#8cb6ce" meeting="false" start="2022-07-22" duration="1" complete="100" thirdDate="2022-06-16" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="20" name="Sistema Operativo" color="#ffcc99" meeting="false" start="2022-06-23" duration="31" complete="100" thirdDate="2022-06-17" thirdDate-constraint="0" expand="false">
+            <task id="21" name="Soporte y licenciamiento eleccion de sist del servidor y cliente" color="#8cb6ce" meeting="false" start="2022-06-23" duration="2" complete="100" thirdDate="2022-06-17" thirdDate-constraint="0" expand="true"/>
+            <task id="22" name="Instalacion maquina virtual" color="#8cb6ce" meeting="false" start="2022-06-24" duration="1" complete="100" thirdDate="2022-06-21" thirdDate-constraint="0" expand="true"/>
+            <task id="23" name="Roles de usarios" color="#8cb6ce" meeting="false" start="2022-07-23" duration="1" complete="100" thirdDate="2022-06-20" thirdDate-constraint="0" expand="true"/>
+            <task id="24" name="Script menu de administracion de cuentas" color="#8cb6ce" meeting="false" start="2022-07-23" duration="1" complete="100" thirdDate="2022-07-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="25" name="Formación Empresarial" color="#ffcc99" meeting="false" start="2022-07-01" duration="22" complete="100" thirdDate="2022-06-20" thirdDate-constraint="0" expand="false">
+            <task id="27" name="Nombre y logo" color="#8cb6ce" meeting="false" start="2022-07-01" duration="1" complete="100" thirdDate="2022-06-27" thirdDate-constraint="0" expand="true"/>
+            <task id="26" name="Mision, vision, valores y objetivos" color="#8cb6ce" meeting="false" start="2022-07-01" duration="1" complete="100" thirdDate="2022-06-27" thirdDate-constraint="0" expand="true"/>
+            <task id="28" name="Determinacion de actividad y giro de la misma" color="#8cb6ce" meeting="false" start="2022-07-22" duration="1" complete="100" thirdDate="2022-06-27" thirdDate-constraint="0" expand="true"/>
+            <task id="29" name="Localizacion" color="#8cb6ce" meeting="false" start="2022-07-22" duration="1" complete="100" thirdDate="2022-06-27" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="30" name="Gestion de Proyecto" color="#ffcc99" meeting="false" start="2022-07-04" duration="20" complete="100" thirdDate="2022-06-18" thirdDate-constraint="0" expand="false">
+            <task id="31" name="organizacion de equipo" color="#8cb6ce" meeting="false" start="2022-07-04" duration="3" complete="100" thirdDate="2022-06-27" thirdDate-constraint="0" expand="true"/>
+            <task id="32" name="Ciclo de vida y roles del equipo" color="#8cb6ce" meeting="false" start="2022-07-06" duration="2" complete="100" thirdDate="2022-06-27" thirdDate-constraint="0" expand="true"/>
+            <task id="33" name="Organizacion de estructura de el desarrollo" color="#8cb6ce" meeting="false" start="2022-07-23" duration="1" complete="100" thirdDate="2022-06-27" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="34" name="Base de Datos" color="#ffcc99" meeting="false" start="2022-07-07" duration="18" complete="100" thirdDate="2022-06-27" thirdDate-constraint="0" expand="false">
+            <task id="35" name="D.E.R (modelo conceptual)" color="#8cb6ce" meeting="false" start="2022-07-07" duration="14" complete="100" thirdDate="2022-06-27" thirdDate-constraint="0" expand="true"/>
+            <task id="36" name="Modelo logico" color="#8cb6ce" meeting="false" start="2022-07-21" duration="4" complete="100" thirdDate="2022-07-02" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="37" name="Programación Web" color="#ffcc99" meeting="false" start="2022-07-19" duration="5" complete="100" thirdDate="2022-06-11" thirdDate-constraint="0" expand="false">
+            <task id="38" name="validacion de datos" color="#8cb6ce" meeting="false" start="2022-07-19" duration="5" complete="100" thirdDate="2022-06-13" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
